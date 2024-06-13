@@ -168,9 +168,12 @@ module.exports = {
 
         viewsCounter: async (req, res) => {
             const discussion = await Discussion.findById(req.params.id);
-            discussion.views += 1;
-            await discussion.save();
-            res.status(200).json(discussion);
+            if(discussion){
+                discussion.views += 1;
+                await discussion.save();
+                res.status(200).json(discussion);
+            }
+            res.status(404).send("Discussion Not found")
         },
 
     }
