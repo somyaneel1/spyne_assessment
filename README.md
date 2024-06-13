@@ -15,5 +15,5 @@ npm run devstart
 o	Base URL: http://localhost:3000
 o	Use Postman or any API testing tool to access the endpoints.
 Postman Collection
-•	Download Postman Collection 
+•	Download Postman Collection : https://www.postman.com/aerospace-pilot-77161054/workspace/somyaneel-public-workspace/collection/25311349-d2423be3-f551-4260-b5ba-1bf0581732a7?action=share&creator=25311349&active-environment=25311349-46e406c9-36c5-44ec-b121-fed38c587f17
 
